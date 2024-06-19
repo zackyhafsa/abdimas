@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #467cf0;
+  padding: 10px 50px;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+header .header-text {
+  font-weight: 700;
+}
+
+.header-list .header-list-item {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.header-list .header-list-item li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.header-list .header-list-item li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list .header-list-item li a:hover {
+  color: #b4b4b4;
+}
+
+.hero-container {
+  height: 100vh;
+  padding: 20px 20%;
+  background-image: url(src/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container .wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.hero-container .wrapper .hero {
+  margin: auto;
+  color: #0f172a;
+}
+
+.hero-container .wrapper .hero h1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 35px;
+}
+
+.hero-container .wrapper .hero h1 span {
+  display: block;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.hero-container .wrapper .hero .mahasiswa {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.hero-container .wrapper .hero .universitas {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.hero-container .wrapper .hero .tagline {
+  margin-bottom: 20px;
+}
+
+.hero-container .wrapper .hero a {
+  background-color: #467cf0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-container .wrapper .hero a:hover {
+  background-color: #384a73;
+}
+
+.hero-container .wrapper .img {
+  margin: auto;
+}
+
+.hero-container .wrapper .img img {
+  border-radius: 50%;
+}
+
+.about-container {
+  height: 100vh;
+  padding: 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aeebfe;
+}
+
+.about-container .wrapper .about .about-wrapper {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.about-container .wrapper .about h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about-container .wrapper .about .img .square {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border-radius: 30px;
+}
+
+.about-container .wrapper .about .text {
+  text-align: justify;
+}
+
+.about-container .wrapper .about .text .social {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.contact-container {
+  height: 100vh;
+  padding: 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container .contact-wrapper {
+  width: 700px;
+}
+
+.contact-container .contact-wrapper h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact-container .contact-wrapper form label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.contact-container .contact-wrapper form input {
+  width: 100%;
+  padding: 4px 0;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border-color: #467cf0;
+  margin-bottom: 20px;
+}
+
+.contact-container .contact-wrapper form textarea {
+  width: 100%;
+  padding: 4px 0;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border-color: #467cf0;
+  margin-bottom: 20px;
+}
+
+.contact-container .contact-wrapper form button {
+  width: 100%;
+  border: none;
+  margin: auto;
+  background-color: #467cf0;
+  font-size: 1rem;
+  padding: 7px 0;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.contact-container .contact-wrapper form button:hover{
+  background-color: #0051ff;
+}
+
+footer{
+  width: 100%;
+  background-color: #0051ff;
+  text-align: center;
+  color:white;
+  padding: 7px 0;
+}
